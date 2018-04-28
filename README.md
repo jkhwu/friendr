@@ -6,9 +6,9 @@ full-stack app that matches users with friends based on survey input, using a No
 A mock dating app. Takes results from users' surveys, compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
 
-### Demo Site
+### Deployed Site
 
-* Check out [this demo version of the site](https://friend-finder-fsf.herokuapp.com/). Use this as a model for how we expect your assignment look and operate.
+* Check out [this deployed version of the site](https://friend-finder-fsf.herokuapp.com/).
 
 ### Instructions
 
