@@ -8,7 +8,7 @@ A mock dating app. Takes results from users' surveys, compares their answers wit
 
 ### Deployed Site
 
-* Check out [this deployed version of the site](https://friend-finder-fsf.herokuapp.com/).
+* Check out [this deployed version of the site](https://secret-thicket-83934.herokuapp.com/).
 
 ### Instructions
 
