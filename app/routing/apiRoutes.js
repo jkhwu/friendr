@@ -8,13 +8,14 @@ module.exports = function(app) {
         res.json(friends);
     });
 
-    app.post("/api/new", function(req, res) {
+    app.post("/api/friends", function(req, res) {
         //setup variables for finding match
         var newFriend = req.body;
         var newScore = newFriend.scores;
         var total = 0;
         var bestMatch = 1000;
         var index = -1;
+        var isRegistered = false;
 
         for (var i = 0; i < friends.length; i++) {
             //Iterate through the whole list of friends already in database
@@ -25,13 +26,16 @@ module.exports = function(app) {
                 var diff = Math.abs(newScore[j] - friends[i].scores[j]);
                 total += diff;
             }
-            if (total < bestMatch) {
+            if (total < bestMatch && newFriend.photo !== friends[i].photo) {
                 bestMatch = total;
                 index = i;
             }
+            if (newFriend.photo == friends[i].photo) {
+                isRegistered = true;
+            }
         }
         console.log('Best Match:', friends[index]);
-        friends.push(newFriend);
+        if (!isRegistered) friends.push(newFriend);
         res.json(friends[index]);
     });
 };
