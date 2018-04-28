@@ -1,0 +1,23 @@
+{
+  "name": "friendr",
+  "version": "1.0.0",
+  "description": "full-stack app that matches users with friends based on survey input",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkhwu/friendr.git"
+  },
+  "author": "jkhwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkhwu/friendr/issues"
+  },
+  "homepage": "https://github.com/jkhwu/friendr#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
