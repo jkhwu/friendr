@@ -65,7 +65,7 @@ var friends = [{
         ]
     },
     {
-        "name": "Trevor 'Xhosa Clicker' Noah",
+        "name": "Trevor 'Xhosa-Singing' Noah",
         "photo": "https://i.pinimg.com/originals/78/1a/c0/781ac0cda65abf68a615bb4a9bb5d82e.jpg",
         "scores": [
             "3",
