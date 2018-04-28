@@ -33,4 +33,4 @@ This app can also be accessed from my [portfolio page](https://jkhwu.github.io/R
 * The Express method `app.use` can sometimes prevent `app.get` requests below from working. Change to `app.get` to avoid this problem.
 * how to use the Node package [Path](https://www.npmjs.com/package/path) to join directory paths.
 * how to create JSON seed data in a js file.
-* using Express method res.JSON(data) to send JSON data while handling a GET or POST request.
+* using Express method res.json(data) to send JSON data while handling a GET or POST request.
